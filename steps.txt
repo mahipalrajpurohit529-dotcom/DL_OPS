@@ -1,22 +1,23 @@
 
-
+# uv init
 # uv venv
 
 # python template.py 
 
-# src > classifier > __init__.py 
+# src > classifier > __init__.py > run
 
 
-# src > classifier > constants >  __init__.py 
+# src > classifier > constants >  __init__.py > run
 
+# run main.py to check logs
 
 --------------------------------------------------
 # requirements.txt added and install 
 
-# src > utils > common.py file ### for yaml file read and crate directory and loading 
+# src > utils > common.py file ### for yaml file read and crate directory and loading > run
 
 
-# config > config.yaml file ### for data sourcing , loading and unzip 
+# config > config.yaml > run file      ### for data sourcing , loading and unzip 
 
 # params.yaml file updated 
 
@@ -28,3 +29,27 @@
 
 
 
+constants > __init__.py 
+
+
+Create a new file 'config_entity.py' in entity folder  and wrtie class DataIngestionConfig
+
+
+Update the configuration Manager in src config 
+In config ---> configuration.py 
+and write details from research ---> data_ingestion.ipynb file 
+
+
+
+Update the components 
+Create a file in components folder ---> data_ingestion.py 
+and write details from research ---> data_ingestion.ipynb file 
+
+
+Update the Pipeline 
+In Pipeline folder -->> create new file 'stage_01_data_ingestion.py' 
+and update the file
+
+
+Update the main.py 
+Now run python main.py  and we will see in artifacts folder data unzip and runnig all process . 
