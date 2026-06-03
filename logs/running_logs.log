@@ -39,3 +39,57 @@ Source-Age: 285
 [2026-06-02 16:58:50,364: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
 
 x==========x:]
+[2026-06-03 17:08:51,599: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:08:51,602: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:08:51,604: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:08:51,606: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2026-06-03 17:08:58,866: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2026-06-03 17:08:59,005: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.:]
+[2026-06-03 17:08:59,112: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2026-06-03 17:15:03,722: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<:]
+[2026-06-03 17:15:03,725: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:15:03,727: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:15:03,728: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:15:03,729: INFO: common: created directory at: artifacts/data_ingestion:]
+[2026-06-03 17:15:03,730: INFO: data_ingestion: File already exists of size: ~ 11345 KB:]
+[2026-06-03 17:15:04,240: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x:]
+[2026-06-03 17:21:43,401: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<:]
+[2026-06-03 17:21:43,403: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:21:43,404: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:21:43,405: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:21:43,405: INFO: common: created directory at: artifacts/data_ingestion:]
+[2026-06-03 17:21:43,406: INFO: data_ingestion: File already exists of size: ~ 11345 KB:]
+[2026-06-03 17:21:43,831: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x:]
+[2026-06-03 17:22:57,019: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<:]
+[2026-06-03 17:22:57,021: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:22:57,022: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:22:57,023: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:22:57,023: INFO: common: created directory at: artifacts/data_ingestion:]
+[2026-06-03 17:22:57,024: INFO: data_ingestion: File already exists of size: ~ 11345 KB:]
+[2026-06-03 17:22:57,477: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x:]
+[2026-06-03 17:26:52,913: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<:]
+[2026-06-03 17:26:52,923: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:26:52,923: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:26:52,925: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:26:52,926: INFO: common: created directory at: artifacts/data_ingestion:]
+[2026-06-03 17:26:52,926: INFO: data_ingestion: File already exists of size: ~ 11345 KB:]
+[2026-06-03 17:26:53,472: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x:]
+[2026-06-03 17:27:00,387: INFO: main: >>>>>> Prepare Base Model started <<<<<<:]
+[2026-06-03 17:27:00,389: INFO: common: YAML file config\config.yaml loaded successfully:]
+[2026-06-03 17:27:00,389: INFO: common: YAML file params.yaml loaded successfully:]
+[2026-06-03 17:27:00,389: INFO: common: created directory at: artifacts:]
+[2026-06-03 17:27:00,389: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2026-06-03 17:27:00,882: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2026-06-03 17:27:01,055: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.:]
+[2026-06-03 17:27:01,086: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2026-06-03 17:27:01,232: INFO: main: >>>>>> Prepare Base Model completed <<<<<<
+
+x==========x:]
