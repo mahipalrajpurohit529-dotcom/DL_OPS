@@ -31,3 +31,19 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+
+
+
+from src.cnnClassifier.pipeline.stage_03_training import ModelTrainingPipeline 
+
+
+STAGE_NAME = "Training"
+try:
+    logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
+    model_trainer = ModelTrainingPipeline()
+    model_trainer.main()
+    logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
