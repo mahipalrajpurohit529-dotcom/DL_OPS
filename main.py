@@ -47,3 +47,17 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+
+
+from src.cnnClassifier.pipeline.stage_04_evaluation import EvaluationPipeline 
+
+STAGE_NAME = "Evaluation"
+try:
+    logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
+    model_eval = EvaluationPipeline()
+    model_eval.main()
+    logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
