@@ -1,5 +1,5 @@
 from src.cnnClassifier.config.configuration import ConfigurationManager
-from src.cnnClassifier.components.prepare_callback import PrepareCallback
+from src.cnnClassifier.components.prepare_callbacks import PrepareCallback
 from src.cnnClassifier.components.training import Training
 from src.cnnClassifier import logger
 
